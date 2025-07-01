@@ -18,3 +18,5 @@ Your sheet should have at least the following columns:
 |-------------|----------------|
 | Jane Smith  | 2023-06-28
 
+
+To check for expired DBS certificates, add `checkDbs.gs` to your Google Sheets project and run `checkOldDBS()`.

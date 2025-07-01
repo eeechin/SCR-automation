@@ -1,1 +1,20 @@
+# DBS Check Expiry Reminder
+
+This is a lightweight Google Apps Script tool designed to help tutoring businesses or educational organizations monitor the expiry of DBS (Disclosure and Barring Service) certificates stored in a Google Sheet. It automatically checks certificate issue dates, flags those nearing or past expiry, and sends email reminders or reports.
+
+## ✨ Features
+
+- ✅ Automatically parses DBS issue dates from a Google Sheet
+- ✅ Flags certificates nearing expiry (11+ months old) or expired (12+ months old)
+- ✅ Sends internal email alerts or tutor reminders (if email addresses are available)
+- ✅ Generates on-demand or scheduled reports
+- ✅ Built entirely in Google Apps Script (no hosting or external services required)
+
+## 📁 Google Sheet Format
+
+Your sheet should have at least the following columns:
+
+| Name        | DBS Issue Date |
+|-------------|----------------|
+| Jane Smith  | 2023-06-28
 

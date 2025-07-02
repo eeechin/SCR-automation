@@ -14,9 +14,8 @@ This is a lightweight Google Apps Script tool designed to help tutoring business
 
 Your sheet should have at least the following columns:
 
-| Name        | DBS Issue Date |
-|-------------|----------------|
-| Jane Smith  | 2023-06-28
+| First Name | Last Name | DBS Issue Date |
+|------------|-----------|----------------|
+| Jane       | Smith     | 2023-06-28 |
 
 
-To check for expired DBS certificates, add `checkDbs.gs` to your Google Sheets project and run `checkOldDBS()`.

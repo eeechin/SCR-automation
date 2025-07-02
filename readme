@@ -18,15 +18,4 @@ Your sheet should have at least the following columns:
 |------------|-----------|----------------|
 | Jane       | Smith     | 2023-06-28 |
 
-The script expects the first name in column **A**, last name in column **B**, and the DBS issue date in column **D**.
 
-Add `checkDbs.gs` to your Google Sheets project. The `checkOldDBS()` function
-automatically runs when the spreadsheet is opened and will display a pop-up
-listing tutors whose DBS certificates are over a year old. The script uses
-`parseDBSDate()` to handle either true Date values or text strings (e.g.
-`YYYY-MM-DD` or `DD/MM/YYYY`) so you don't have to worry about formatting
-differences in your sheet.
-
-For debugging purposes you can also run `debugListDiffDays()` from the
-Apps Script editor. It will show every tutor alongside the number of days since
-their certificate was issued so you can confirm the dates are read correctly.
